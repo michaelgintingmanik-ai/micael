@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Website Kopi Senja</title>
+<style>
+  body {
+    background-color: #f5deb3; /* Warna beige seperti kopi susu */
+    font-family: Arial, sans-serif;
+    color: #5a3a22; /* Warna coklat tua untuk teks */
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff8e1; /* Warna krem lebih terang untuk konten */
+    border-radius: 8px;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #8b4513; /* Warna coklat tua untuk nav */
+    overflow: hidden;
+  }
+  nav ul li {
+    float: left;
+  }
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    background-color: #a0522d;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #d2b48c;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #d2b48c; /* Warna tan untuk header tabel */
+  }
+</style>
+</head>
+
+<body>
+<tr class="container">
+
+<h1 align="center"> SELAMAT DATANG DI KOPI SENJA</h1>
+
+
+<ul align="center">
+  <a href="index.html"><img src="Beranda.jpeg" width="60" height="60" style="border-radius:10px;" alt="Beranda"></a> |
+  <a href="menu.html"><img src="Menu.jpeg" width="60" height="60" style="border-radius:10px;" alt="Menu"></a> |
+  <a href="reservasi.html"><img src="Reservasi.jpeg" width="60" height="60" style="border-radius:10px;" alt="Reservasi"></a>
+</ul>
+<hr>
+
+</table>
+</tr>
+
+<h1>Formulir Reservasi Meja</h1>
+<form>
+<td>Nama Pelanggan:</td>
+<input type="text" name="nama"><br><br>
+
+<td>Nomor Telepon:</td>
+<input type="tel" name="telepon"><br>
+
+<td>Tanggal Reservasi:</td>
+<input type="date" name="tanggal"> <br>
+
+<td>Jumlah Orang:</td>
+<input type="number" name="jumlah" min="1"> <br><br>
+
+<td>Pilih Area:</td>
+<input type="radio" name="area" value="indoor"> Indoor (Non-Smoking)<br>
+<input type="radio" name="area" value="outdoor"> Outdoor (Smoking)<br><br>
+
+<td>Catatan Tambahan:</td>
+<textarea name="catatan" rows="4" cols="40"></textarea><br><br>
+
+<button type="submit">Kirim Reservasi</button>
+</form>
+
+<h3>Informasi Penting:</h3>
+<ul>
+<li>Reservasi akan kami konfirmasi melalui telepon.</li>
+<li>Mohon datang 10 menit sebelum waktu reservasi.</li>
+<li>Reservasi lebih dari 6 orang harap hubungi kami langsung.</li>
+</ul>
+
+<h3>Jam Buka:</h3>
+<table>
+<tr><th>Sesi</th><th>Waktu</th></tr>
+<tr><td>Pagi</td><td>09:00, 10:00, 11:00</td></tr>
+<tr><td>Siang</td><td>13:00, 14:00, 15:00</td></tr>
+<tr><td>Malam</td><td>19:00, 20:00, 21:00</td></tr>
+</tr>
+</table>
+</body>
+</html>
